@@ -1,0 +1,79 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// ALL HEADER STYLING
+header {
+	background-image: url('/assets/nicole-brett-151-2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 550px;
+	width: 100%;
+	position: relative;
+}
+@media screen and (max-width: 960px) {
+	header {
+		width: 960px;
+	}
+}
+@media screen and (max-width: 758px) {
+	header {
+		width: 758px;
+	}
+}
+@media screen and (max-width: 524px) {
+	header {
+		width: 524px;
+	}
+}
+#header_text {
+	position: relative;	
+	z-index: 10;
+}
+.img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20%;
+}
+
+// NAVBAR STYLING
+.navbar {
+	width: 100%;
+	margin: 0px;
+}
+
+// SECOND CONTAINER STYLING
+#second_container {
+	background-image: url('/assets/b&w2.jpg');
+	background-attachment: fixed;
+	position: relative;
+}
+
+// FRENCHIE BREAK STYLING
+.frenchie_break {
+	height: 100px;
+	margin-top: -20px;
+}
+#frenchie_img {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+// STORY BLOCK STYLING
+#story_block {
+	border: 5px solid black;
+	display: block;
+	margin-top: 80px;
+	height: 450px;
+	background-image: url('/assets/bluepastel.jpg');
+	background-attachment: fixed;
+}
+#chapter_one {
+	border: 5px solid black;
+	display: block;
+	margin-top: 80px;
+	height: 800px;
+	background-image: url('/assets/bluepastel.jpg');
+	background-attachment: fixed;
+}
