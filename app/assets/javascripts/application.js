@@ -27,3 +27,40 @@ $(document).ready(function(){
 $(document).scroll(function(){
 	$('#header_text').fadeOut('slow');
 });
+
+// HIGHLIGHT HOVER FOR BRIDAL PARTY GRID_BOXES
+$(document).ready(function(){
+   $('.grid_box').mouseover(function(){
+      $(this).addClass('hover');
+   });
+   $('.grid_box').mouseout(function(){
+      $(this).removeClass('hover');
+   });
+});
+// CHANGE CONTENT OF BAT BOX ON HOVER
+$(document).ready(function(){
+	$('#bat').hover(function(){
+		$('#display_box').toggleClass('bat_display');
+		$(this).fadeIn(function(){
+			$(this).html('batman');
+		});
+	});
+});
+// CHANGE CONTENT OF MAKENZIE BOX ON HOVER
+$(document).ready(function(){
+	$('#makenzie').hover(function(){
+		$('#display_box').toggleClass('kenz_display');
+		$(this).fadeIn(function(){
+			$(this).html('makenzie');
+		});
+	});
+});
+// CHANGE CONTENT OF BRETT BOX ON HOVER
+$(document).ready(function(){
+	$('#brett').hover(function(){
+		$('#display_box').toggleClass('brett_display');
+		$(this).fadeIn(function(){
+			$(this).html('brett');
+		});
+	});
+});

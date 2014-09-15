@@ -81,18 +81,25 @@ header {
 // PARTY GRID STYLING
 #party_grid {
 	position: relative;
-	height: 650px;
+	height: 641px;
 	width: 970px;
 	border: 5px solid black;
 	margin-top: 80px;
 	padding: 0;
 }
 .grid_box {
-	height: 156px;
+	height: 153px;
 	width: 156px;
 	background: grey;
 	display: inline-block;
+	margin-top: 4px;
+	text-align: center;
 }
+// HIGHLIGHT HOVERING GRIDS
+.hover {
+	background-color: yellow;
+}
+
 #bretts_side {
 	position: absolute;
 	top: 0;
@@ -100,6 +107,32 @@ header {
 	height: 624px;
 	width: 320px;
 }
+// ALL BRETT'S SIDE ROLES
+#barry {
+	padding-top: 41px;
+}
+#jodell {
+	padding-top: 41px;
+}
+#brett {
+	padding-top: 62px;
+}
+#travis {
+	padding-top: 62px;
+}
+#kevin {
+	padding-top: 62px;
+}
+#brandon {
+	padding-top: 62px;
+}
+#matt {
+	padding-top: 62px;
+}
+#ian {
+	padding-top: 62px;
+}
+
 #nicoles_side {
 	position: absolute;
 	top: 0;
@@ -107,18 +140,63 @@ header {
 	height: 624px;
 	width: 320px;
 }
+// ALL NICOLE'S SIDE ROLES
+#janet {
+	padding-top: 41px;
+}
+#mark {
+	padding-top: 41px;
+}
+#kelly {
+	padding-top: 32px;
+}
+#lisa {
+	padding-top: 62px;
+}
+#kathleen {
+	padding-top: 62px;
+}
+#kristina {
+	padding-top: 62px;
+}
+#yuri {
+	padding-top: 62px;
+}
+#kim {
+	padding-top: 62px;
+}
 #display_box {
-	height: 479px;
+	height: 466px;
 	width: 310px;
-	background: grey;
 	position: absolute;
 	top: 0;
 	margin-left: 325px;
+	margin-top: 5px;
 }
 #tiny_side {
 	position: absolute;
 	bottom: 0;
 	margin-left: 322px;
-	margin-bottom: -4px;
+	margin-bottom: 3px;
+	text-align: center;
+	padding-top: 68px;
+}
+// ALL TINY SIDE ROLES
+#bat {
+	padding-top: 62px;
+}
+#makenzie {
+	padding-top: 62px;
 }
 
+// ALL DISPLAY BOX CONDITIONAL CLASSES
+.bat_display {
+	background-image: url('/assets/disp_bat.png');
+}
+.kenz_display {
+	background-image: url('/assets/disp_kenz.png');
+}
+.brett_display {
+	background-image: url('/assets/c5a3a.gif');
+	background-repeat: no-repeat;
+}
