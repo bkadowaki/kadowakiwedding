@@ -55,7 +55,7 @@ header {
 	height: 100px;
 	margin-top: -20px;
 }
-#frenchie_img {
+.frenchie_img {
 	padding-top: 0;
 	margin-top: 0;
 }
@@ -77,3 +77,48 @@ header {
 	background-image: url('/assets/bluepastel.jpg');
 	background-attachment: fixed;
 }
+
+// PARTY GRID STYLING
+#party_grid {
+	position: relative;
+	height: 650px;
+	width: 970px;
+	border: 5px solid black;
+	margin-top: 80px;
+	padding: 0;
+}
+.grid_box {
+	height: 156px;
+	width: 156px;
+	background: grey;
+	display: inline-block;
+}
+#bretts_side {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 624px;
+	width: 320px;
+}
+#nicoles_side {
+	position: absolute;
+	top: 0;
+	right: -4px;
+	height: 624px;
+	width: 320px;
+}
+#display_box {
+	height: 479px;
+	width: 310px;
+	background: grey;
+	position: absolute;
+	top: 0;
+	margin-left: 325px;
+}
+#tiny_side {
+	position: absolute;
+	bottom: 0;
+	margin-left: 322px;
+	margin-bottom: -4px;
+}
+

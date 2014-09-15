@@ -16,8 +16,14 @@
 //= require turbolinks
 //= require_tree .
 
+// FADE OUT BATS; DELETE LATER
 $(document).ready(function(){
-	$('#frenchie_img').click(function(){
-		$('#frenchie_img').fadeOut();
+	$('.frenchie_img').click(function(){
+		$('.frenchie_img').fadeOut();
 	});
+});
+
+// FADE OUT HEADER TEXT ON SCROLL
+$(document).scroll(function(){
+	$('#header_text').fadeOut('slow');
 });
