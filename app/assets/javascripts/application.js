@@ -64,3 +64,48 @@ $(document).ready(function(){
 		});
 	});
 });
+// CHANGE CONTENT OF KEVIN BOX ON HOVER
+$(document).ready(function(){
+	$('#kevin').hover(function(){
+		$('#display_box').toggleClass('kevin_display');
+		$(this).fadeIn(function(){
+			$(this).html('kevin');
+		});
+	});
+});
+// CHANGE CONTENT OF BRANDON BOX ON HOVER
+$(document).ready(function(){
+	$('#brandon').hover(function(){
+		$('#display_box').toggleClass('brandon_display');
+		$(this).fadeIn(function(){
+			$(this).html('brandon');
+		});
+	});
+});
+// CHANGE CONTENT OF KRISTINA BOX ON HOVER
+$(document).ready(function(){
+	$('#kristina').hover(function(){
+		$('#display_box').toggleClass('kristina_display');
+		$(this).fadeIn(function(){
+			$(this).html('kristina');
+		});
+	});
+});
+// CHANGE CONTENT OF JODELL BOX ON HOVER
+$(document).ready(function(){
+	$('#jodell').hover(function(){
+		$('#display_box').toggleClass('jodell_display');
+		$(this).fadeIn(function(){
+			$(this).html('jodell');
+		});
+	});
+});
+// CHANGE CONTENT OF FATHER BOX ON HOVER
+$(document).ready(function(){
+	$('#barry').hover(function(){
+		$('#display_box').toggleClass('barry_display');
+		$(this).fadeIn(function(){
+			$(this).html('barry');
+		});
+	});
+});

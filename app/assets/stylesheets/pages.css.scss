@@ -109,10 +109,10 @@ header {
 }
 // ALL BRETT'S SIDE ROLES
 #barry {
-	padding-top: 41px;
+	padding-top: 62px;
 }
 #jodell {
-	padding-top: 41px;
+	padding-top: 62px;
 }
 #brett {
 	padding-top: 62px;
@@ -142,13 +142,13 @@ header {
 }
 // ALL NICOLE'S SIDE ROLES
 #janet {
-	padding-top: 41px;
+	padding-top: 62px;
 }
 #mark {
-	padding-top: 41px;
+	padding-top: 62px;
 }
 #kelly {
-	padding-top: 32px;
+	padding-top: 62px;
 }
 #lisa {
 	padding-top: 62px;
@@ -172,6 +172,10 @@ header {
 	top: 0;
 	margin-left: 325px;
 	margin-top: 5px;
+	// background-image: url('/assets/bridalparty.png');
+	// background-repeat: no-repeat;
+	// background-color: grey;
+	// z-index: 1;
 }
 #tiny_side {
 	position: absolute;
@@ -191,12 +195,34 @@ header {
 
 // ALL DISPLAY BOX CONDITIONAL CLASSES
 .bat_display {
-	background-image: url('/assets/disp_bat.png');
-}
-.kenz_display {
-	background-image: url('/assets/disp_kenz.png');
-}
-.brett_display {
-	background-image: url('/assets/c5a3a.gif');
+	background-image: url('/assets/c5cfv.gif');
 	background-repeat: no-repeat;
 }
+.kenz_display {
+	background-image: url('/assets/c5duc.gif');
+	background-repeat: no-repeat;
+}
+.brett_display {
+	background-image: url('/assets/c5ex9.gif');
+	background-repeat: no-repeat;
+}
+.kevin_display {
+	background-image: url('/assets/c5cm1.gif');
+	background-repeat: no-repeat;	
+}
+.brandon_display {
+	background-image: url('/assets/c5dis.gif');
+	background-repeat: no-repeat;	
+}
+.kristina_display {
+	background-image: url('/assets/c5dy1.gif');
+	background-repeat: no-repeat;	
+}
+.jodell_display {
+	background-image: url('/assets/c5eff.gif');
+	background-repeat: no-repeat;	
+}	
+.barry_display {
+	background-image: url('/assets/c5eff.gif');
+	background-repeat: no-repeat;	
+}	
