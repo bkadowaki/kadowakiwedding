@@ -45,8 +45,9 @@ header {
 
 // SECOND CONTAINER STYLING
 #second_container {
-	background-image: url('/assets/b&w2.jpg');
-	background-attachment: fixed;
+	// background-image: url('/assets/Flamingo-I-Katherine-Jury1.jpg');
+	// background-attachment: fixed;
+	background-color: white;
 	position: relative;
 }
 
@@ -66,7 +67,7 @@ header {
 	display: block;
 	margin-top: 80px;
 	height: 450px;
-	background-image: url('/assets/bluepastel.jpg');
+	background-image: url('/assets/b&w2.jpg');
 	background-attachment: fixed;
 }
 #chapter_one {
@@ -74,7 +75,7 @@ header {
 	display: block;
 	margin-top: 80px;
 	height: 800px;
-	background-image: url('/assets/bluepastel.jpg');
+	background-image: url('/assets/b&w2.jpg');
 	background-attachment: fixed;
 }
 
@@ -90,7 +91,7 @@ header {
 .grid_box {
 	height: 153px;
 	width: 156px;
-	background: grey;
+	background-image: url('/assets/Flamingo-I-Katherine-Jury1.jpg');
 	display: inline-block;
 	margin-top: 4px;
 	text-align: center;
@@ -165,17 +166,15 @@ header {
 #kim {
 	padding-top: 62px;
 }
-#display_box {
+.disp_class {
 	height: 466px;
 	width: 310px;
 	position: absolute;
 	top: 0;
 	margin-left: 325px;
 	margin-top: 5px;
-	// background-image: url('/assets/bridalparty.png');
-	// background-repeat: no-repeat;
-	// background-color: grey;
-	// z-index: 1;
+	background-image: url('/assets/Flamingo-I-Katherine-Jury1.jpg');
+	background-repeat: no-repeat;
 }
 #tiny_side {
 	position: absolute;
@@ -195,23 +194,23 @@ header {
 
 // ALL DISPLAY BOX CONDITIONAL CLASSES
 .bat_display {
-	background-image: url('/assets/c5cfv.gif');
+	background-image: url('/assets/c5s57.gif');
 	background-repeat: no-repeat;
 }
 .kenz_display {
-	background-image: url('/assets/c5duc.gif');
+	background-image: url('/assets/c5sbr.gif');
 	background-repeat: no-repeat;
 }
 .brett_display {
-	background-image: url('/assets/c5ex9.gif');
+	background-image: url('/assets/c5ran.gif');
 	background-repeat: no-repeat;
 }
 .kevin_display {
-	background-image: url('/assets/c5cm1.gif');
+	background-image: url('/assets/c5r4x.gif');
 	background-repeat: no-repeat;	
 }
 .brandon_display {
-	background-image: url('/assets/c5dis.gif');
+	background-image: url('/assets/c5s3c.gif');
 	background-repeat: no-repeat;	
 }
 .kristina_display {
@@ -226,3 +225,11 @@ header {
 	background-image: url('/assets/c5eff.gif');
 	background-repeat: no-repeat;	
 }	
+.janet_display {
+	background-image: url('/assets/c5sku.gif');
+	background-repeat: no-repeat;	
+}
+.lisa_display {
+	background-image: url('/assets/c5shq.gif');
+	background-repeat: no-repeat;	
+}

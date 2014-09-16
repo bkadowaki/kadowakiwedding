@@ -100,12 +100,29 @@ $(document).ready(function(){
 		});
 	});
 });
-// CHANGE CONTENT OF FATHER BOX ON HOVER
+// CHANGE CONTENT OF BARRY BOX ON HOVER
 $(document).ready(function(){
 	$('#barry').hover(function(){
 		$('#display_box').toggleClass('barry_display');
 		$(this).fadeIn(function(){
 			$(this).html('barry');
+		});
+	});
+});
+// CHANGE CONTENT OF JANET BOX ON HOVER
+$(document).ready(function(){
+	$('#janet').hover(function(){
+		$('#display_box').toggleClass('janet_display');
+		$(this).fadeIn(function(){
+			$(this).html('janet');
+		});
+	});
+});// CHANGE CONTENT OF LISA BOX ON HOVER
+$(document).ready(function(){
+	$('#lisa').hover(function(){
+		$('#display_box').toggleClass('lisa_display');
+		$(this).fadeIn(function(){
+			$(this).html('lisa');
 		});
 	});
 });
