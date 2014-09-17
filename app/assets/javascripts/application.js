@@ -117,12 +117,49 @@ $(document).ready(function(){
 			$(this).html('janet');
 		});
 	});
-});// CHANGE CONTENT OF LISA BOX ON HOVER
+});
+// CHANGE CONTENT OF LISA BOX ON HOVER
 $(document).ready(function(){
 	$('#lisa').hover(function(){
 		$('#display_box').toggleClass('lisa_display');
 		$(this).fadeIn(function(){
 			$(this).html('lisa');
+		});
+	});
+});
+// CHANGE CONTENT OF IAN BOX ON HOVER
+$(document).ready(function(){
+	$('#ian').hover(function(){
+		$('#display_box').toggleClass('ian_display');
+		$(this).fadeIn(function(){
+			$(this).html('ian');
+		});
+	});
+});
+// CHANGE CONTENT OF YURI BOX ON HOVER
+$(document).ready(function(){
+	$('#yuri').hover(function(){
+		$('#display_box').toggleClass('yuri_display');
+		$(this).fadeIn(function(){
+			$(this).html('yuri');
+		});
+	});
+});
+// CHANGE CONTENT OF KIM BOX ON HOVER
+$(document).ready(function(){
+	$('#kim').hover(function(){
+		$('#display_box').toggleClass('kim_display');
+		$(this).fadeIn(function(){
+			$(this).html('kim');
+		});
+	});
+});
+// CHANGE CONTENT OF KATHLEEN BOX ON HOVER
+$(document).ready(function(){
+	$('#kathleen').hover(function(){
+		$('#display_box').toggleClass('kathleen_display');
+		$(this).fadeIn(function(){
+			$(this).html('kathleen');
 		});
 	});
 });
