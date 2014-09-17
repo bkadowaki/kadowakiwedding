@@ -16,13 +16,6 @@
 //= require turbolinks
 //= require_tree .
 
-// FADE OUT BATS; DELETE LATER
-$(document).ready(function(){
-	$('.frenchie_img').click(function(){
-		$('.frenchie_img').fadeOut();
-	});
-});
-
 // FADE OUT HEADER TEXT ON SCROLL
 $(document).scroll(function(){
 	$('#header_text').fadeOut('slow');
@@ -160,6 +153,15 @@ $(document).ready(function(){
 		$('#display_box').toggleClass('kathleen_display');
 		$(this).fadeIn(function(){
 			$(this).html('kathleen');
+		});
+	});
+});
+// CHANGE CONTENT OF KELLY BOX ON HOVER
+$(document).ready(function(){
+	$('#kelly').hover(function(){
+		$('#display_box').toggleClass('kelly_display');
+		$(this).fadeIn(function(){
+			$(this).html('kelly');
 		});
 	});
 });

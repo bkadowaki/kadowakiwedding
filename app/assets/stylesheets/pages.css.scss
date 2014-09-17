@@ -5,7 +5,7 @@
 
 // ALL HEADER STYLING
 header {
-	background-image: url('/assets/nicole-brett-151-2.jpg');
+	background: url(/assets/nicole-brett-151-2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	height: 550px;
@@ -45,62 +45,100 @@ header {
 
 // SECOND CONTAINER STYLING
 #second_container {
-	// background-image: url('/assets/Flamingo-I-Katherine-Jury1.jpg');
-	// background-attachment: fixed;
-	background-color: white;
+	background: rgb(230,230,230);
+	// background: url(/assets/bg/bricks.png);
 	position: relative;
 }
 
-// FRENCHIE BREAK STYLING
-.frenchie_break {
-	height: 100px;
-	margin-top: 17px;
+// BACKGROUND BREAK STYLING
+#break1 {
+	height: 600px;
+	width: 100%;
+	background: url(/assets/break1.jpg);
+	background-attachment: fixed;
 }
-.frenchie_img {
-	padding-top: 0;
-	margin-top: 0;
+#break2 {
+	height: 600px;
+	width: 100%;
+	background: url(/assets/break2.jpg);
+	background-attachment: fixed;
+}
+#break3 {
+	height: 600px;
+	width: 100%;
+	background: url(/assets/break3.jpg);
+	background-attachment: fixed;
+}
+#break4 {
+	height: 600px;
+	width: 100%;
+	background: url(/assets/break4.jpg);
+	background-attachment: fixed;
+}
+#break5 {
+	height: 600px;
+	width: 100%;
+	background: url(/assets/break5.jpg);
+	background-attachment: fixed;
+}
+#break6 {
+	height: 600px;
+	width: 100%;
+	background: url(/assets/break6.jpg);
+	background-attachment: fixed;
 }
 
-// STORY BLOCK STYLING
-#story_block {
-	border: 5px solid black;
-	display: block;
-	margin-top: 80px;
-	height: 450px;
-	background-image: url('/assets/b&w2.jpg');
-	background-attachment: fixed;
+
+// BRIDE GROOM BIOS
+#third_container {
+	background-color: #F7D6C7;
 }
-#chapter_one {
-	border: 5px solid black;
+#bride_bio {
+	border: 5px solid #DADCDF;
 	display: block;
-	margin-top: 80px;
-	height: 800px;
-	background-image: url('/assets/b&w2.jpg');
-	background-attachment: fixed;
+	height: 450px;
+	background: white;
+}
+#fourth_container {
+	background-color: rgb(171,221,198);
+}
+#groom_bio {
+	border: 5px solid #DADCDF;
+	display: block;
+	height: 450px;
+	background: white;
 }
 
 // PARTY GRID STYLING
+#fifth_container {
+	background: #EFF3FF;
+}
 #party_grid {
 	position: relative;
 	height: 641px;
 	width: 970px;
-	border: 5px solid black;
-	margin-top: 80px;
+	border: 5px solid #DADCDF;
+	// margin-top: 80px;
 	padding: 0;
 }
 .grid_box {
 	height: 153px;
 	width: 156px;
-	background-image: url('/assets/Flamingo-I-Katherine-Jury1.jpg');
 	display: inline-block;
 	margin-top: 4px;
 	text-align: center;
+}
+.brett_grid_box {
+	background: url(/assets/backgrid_bluepastel.png);
+}
+.nicole_grid_box {
+	background: url(/assets/Flamingo-I-Katherine-Jury1.jpg);	
 }
 // HIGHLIGHT HOVERING GRIDS
 .hover {
 	background-color: yellow;
 }
-
+// ALL BRETT'S SIDE ROLES
 #bretts_side {
 	position: absolute;
 	top: 0;
@@ -108,7 +146,6 @@ header {
 	height: 624px;
 	width: 320px;
 }
-// ALL BRETT'S SIDE ROLES
 #barry {
 	padding-top: 62px;
 }
@@ -133,7 +170,7 @@ header {
 #ian {
 	padding-top: 62px;
 }
-
+// ALL NICOLE'S SIDE ROLES
 #nicoles_side {
 	position: absolute;
 	top: 0;
@@ -141,7 +178,6 @@ header {
 	height: 624px;
 	width: 320px;
 }
-// ALL NICOLE'S SIDE ROLES
 #janet {
 	padding-top: 62px;
 }
@@ -166,6 +202,7 @@ header {
 #kim {
 	padding-top: 62px;
 }
+// DISPLAY BOX
 .disp_class {
 	height: 466px;
 	width: 310px;
@@ -173,9 +210,9 @@ header {
 	top: 0;
 	margin-left: 325px;
 	margin-top: 5px;
-	background-image: url('/assets/Flamingo-I-Katherine-Jury1.jpg');
-	background-repeat: no-repeat;
+	background: white;
 }
+// ALL TINY SIDE ROLES
 #tiny_side {
 	position: absolute;
 	bottom: 0;
@@ -184,68 +221,105 @@ header {
 	text-align: center;
 	padding-top: 68px;
 }
-// ALL TINY SIDE ROLES
 #bat {
 	padding-top: 62px;
 }
 #makenzie {
 	padding-top: 62px;
 }
-
 // ALL DISPLAY BOX CONDITIONAL CLASSES
 .bat_display {
-	background-image: url('/assets/c6omm.gif');
+	background: url(/assets/c6y5h.gif);
 	background-repeat: no-repeat;
 }
 .kenz_display {
-	background-image: url('/assets/c6iet.gif');
+	background: url(/assets/c6iet.gif);
 	background-repeat: no-repeat;
 }
 .brett_display {
-	background-image: url('/assets/c6ltm.gif');
+	background: url(/assets/c6ltm.gif);
 	background-repeat: no-repeat;
 }
 .kevin_display {
-	background-image: url('/assets/c6lxc.gif');
+	background: url(/assets/c6lxc.gif);
 	background-repeat: no-repeat;	
 }
 .brandon_display {
-	background-image: url('/assets/c6ni9.gif');
+	background: url(/assets/c6ni9.gif);
 	background-repeat: no-repeat;	
 }
 .ian_display {
-	background-image: url('/assets/c6lp7.gif');
+	background: url(/assets/c6lp7.gif);
 	background-repeat: no-repeat;		
 }
 .kristina_display {
-	background-image: url('/assets/c6iug.gif');
+	background: url(/assets/c6iug.gif);
 	background-repeat: no-repeat;	
 }
 .jodell_display {
-	background-image: url('/assets/c6ned.gif');
+	background: url(/assets/c6ned.gif);
 	background-repeat: no-repeat;	
 }	
 .barry_display {
-	background-image: url('/assets/c5eff.gif');
+	background: url(/assets/c6xf7.gif);
 	background-repeat: no-repeat;	
 }	
 .janet_display {
-	background-image: url('/assets/c6lhn.gif');
+	background: url(/assets/c6lhn.gif);
 	background-repeat: no-repeat;	
 }
 .lisa_display {
-	background-image: url('/assets/c6nuy.gif');
+	background: url(/assets/c6nuy.gif);
 	background-repeat: no-repeat;	
 }
 .yuri_display {
-	background-image: url('/assets/c6iyx.gif');
+	background: url(/assets/c6iyx.gif);
 	background-repeat: no-repeat;	
 }
 .kim_display {
-	background-image: url('/assets/c6nax.gif');
+	background: url(/assets/c6nax.gif);
 	background-repeat: no-repeat;	
 }
 .kathleen_display {
-	background-image: url('/assets/c6noq.gif');
+	background: url(/assets/c6noq.gif);
 	background-repeat: no-repeat;		
 }
+.kelly_display {
+	background: url(/assets/c6xlp.gif);
+	background-repeat: no-repeat;		
+}
+
+// LOGISTICS STYLING
+#sixth_container {
+	background: #FFD9D9;
+}
+#logistics {
+	border: 5px solid #DADCDF;
+	display: block;
+	height: 450px;
+	background: white;
+}
+
+// REGISTRY STYLING
+#seventh_container {
+	background: #FFFFE0;
+}
+#registry {
+	border: 5px solid #DADCDF;
+	display: block;
+	height: 450px;
+	background: white;
+}
+
+// RSVP STYLING
+#eighth_container {
+	background: #E0FFFF;
+}
+#rsvp {
+	border: 5px solid #DADCDF;
+	display: block;
+	height: 450px;
+	background: white;
+}
+
+
