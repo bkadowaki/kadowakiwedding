@@ -22,14 +22,14 @@ $(document).scroll(function(){
 });
 
 // HIGHLIGHT HOVER FOR BRIDAL PARTY GRID_BOXES
-$(document).ready(function(){
-   $('.grid_box').mouseover(function(){
-      $(this).addClass('hover');
-   });
-   $('.grid_box').mouseout(function(){
-      $(this).removeClass('hover');
-   });
-});
+// $(document).ready(function(){
+//    $('.grid_box').mouseover(function(){
+//       $(this).addClass('hover');
+//    });
+//    $('.grid_box').mouseout(function(){
+//       $(this).removeClass('hover');
+//    });
+// });
 // CHANGE CONTENT OF BAT BOX ON HOVER
 $(document).ready(function(){
 	$('#bat').hover(function(){
