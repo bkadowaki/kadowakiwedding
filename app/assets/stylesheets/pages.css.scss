@@ -5,7 +5,7 @@
 
 // ALL HEADER STYLING
 header {
-	background: url(/assets/nicole-brett-151-2.jpg);
+	background: image-url("nicole-brett-151-2.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	height: 550px;
@@ -46,7 +46,6 @@ header {
 // SECOND CONTAINER STYLING
 #second_container {
 	background: rgb(230,230,230);
-	// background: url(/assets/bg/bricks.png);
 	position: relative;
 }
 
@@ -54,37 +53,37 @@ header {
 #break1 {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/break1.jpg);
+	background: image-url("break1.jpg");
 	background-attachment: fixed;
 }
 #break2 {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/break2.jpg);
+	background: image-url("break2.jpg");
 	background-attachment: fixed;
 }
 #break3 {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/break3.jpg);
+	background: image-url("break3.jpg");
 	background-attachment: fixed;
 }
 #break4 {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/break5.jpg);
+	background: image-url("break5.jpg");
 	background-attachment: fixed;
 }
 #break5 {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/break4.jpg);
+	background: image-url("break4.jpg");
 	background-attachment: fixed;
 }
 #break6 {
 	height: 600px;
 	width: 100%;
-	background: url(/assets/break6.jpg);
+	background: image-url("break6.jpg");
 	background-attachment: fixed;
 }
 
@@ -129,10 +128,10 @@ header {
 	text-align: center;
 }
 .brett_grid_box {
-	background: url(/assets/backgrid_bluepastel.png);
+	background: image-url("backgrid_bluepastel.png");
 }
 .nicole_grid_box {
-	background: url(/assets/Flamingo-I-Katherine-Jury1.jpg);	
+	background: image-url("Flamingo-I-Katherine-Jury1.jpg");	
 }
 // HIGHLIGHT HOVERING GRIDS
 // .hover {
@@ -229,63 +228,63 @@ header {
 }
 // ALL DISPLAY BOX CONDITIONAL CLASSES
 .bat_display {
-	background: url(/assets/c6y5h.gif);
+	background: image-url("c6y5h.gif");
 	background-repeat: no-repeat;
 }
 .kenz_display {
-	background: url(/assets/c6iet.gif);
+	background: image-url("c6iet.gif");
 	background-repeat: no-repeat;
 }
 .brett_display {
-	background: url(/assets/c6ltm.gif);
+	background: image-url("c6ltm.gif");
 	background-repeat: no-repeat;
 }
 .kevin_display {
-	background: url(/assets/c6lxc.gif);
+	background: image-url("c6lxc.gif");
 	background-repeat: no-repeat;	
 }
 .brandon_display {
-	background: url(/assets/c6ni9.gif);
+	background: image-url("c6ni9.gif");
 	background-repeat: no-repeat;	
 }
 .ian_display {
-	background: url(/assets/c6lp7.gif);
+	background: image-url("c6lp7.gif");
 	background-repeat: no-repeat;		
 }
 .kristina_display {
-	background: url(/assets/c6iug.gif);
+	background: image-url("c6iug.gif");
 	background-repeat: no-repeat;	
 }
 .jodell_display {
-	background: url(/assets/c6ned.gif);
+	background: image-url("c6ned.gif");
 	background-repeat: no-repeat;	
 }	
 .barry_display {
-	background: url(/assets/c6xf7.gif);
+	background: image-url("c6xf7.gif");
 	background-repeat: no-repeat;	
 }	
 .janet_display {
-	background: url(/assets/c6lhn.gif);
+	background: image-url("c6lhn.gif");
 	background-repeat: no-repeat;	
 }
 .lisa_display {
-	background: url(/assets/c6nuy.gif);
+	background: image-url("c6nuy.gif");
 	background-repeat: no-repeat;	
 }
 .yuri_display {
-	background: url(/assets/c6iyx.gif);
+	background: image-url("c6iyx.gif");
 	background-repeat: no-repeat;	
 }
 .kim_display {
-	background: url(/assets/c6nax.gif);
+	background: image-url("c6nax.gif");
 	background-repeat: no-repeat;	
 }
 .kathleen_display {
-	background: url(/assets/c6noq.gif);
+	background: image-url("c6noq.gif");
 	background-repeat: no-repeat;		
 }
 .kelly_display {
-	background: url(/assets/c6xlp.gif);
+	background: image-url("c6xlp.gif");
 	background-repeat: no-repeat;		
 }
 
