@@ -3,24 +3,24 @@ class SessionsController < ApplicationController
   end
 
   def create
-  	begin
-  		user = User.find_by({email: params[:session][:email]})
-  	rescue
-  		flash[:error] = 'Email not found.'
-  	end
+  		@user = User.find_by({email: params[:email]})
 
-  	if user && user.authenticate(params[:session][:password])
-  			log_in(user)
-  			redirect_to root_path
+  	if @user && @user.authenticate(params[:password])
+  			log_in @user
+  			redirect_to @user
   	else 
   			flash[:error] ||= 'Try again.'
   			render 'new'
   	end
+    rescue
+      flash[:error] = 'Email not found.'
+      render :new
   end
 
   	def destroy
   		log_out
   		redirect_to root_path
   	end
+
 
 end

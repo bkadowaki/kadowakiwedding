@@ -15,10 +15,12 @@ users = User.create([
 
 rsvps = Rsvp.create([
 	{
-		name: "Batman",
-		email: "batman.kadowaki@gmail.com",
 		phone: "310-938-5977",
 		attending: true,
-		how_many: 1
+		name1: "bat",
+		name2: "lulu",
+		name3: "otto",
+		name4: "bailey",
+		name5: "cooper",
 	}
 ]);

@@ -2,11 +2,16 @@ require 'bcrypt'
 
 class User
   include Mongoid::Document
+  include Mongoid::Slug
   field :name, type: String
   field :email, type: String
   field :password_digest, type: String
+  slug :name
 
-  has_one :rsvp
+  belongs_to :rsvp
+
+# validates_presence_of :name, :email, :password_digest, :message => "Missing a field!"
+# validates_presence_of :email, uniqueness: true, :message => "Email already used!"
 
   attr_reader :password
 
@@ -21,5 +26,7 @@ class User
   		false
   	end
   end
+
+
 
 end

@@ -1,10 +1,12 @@
 class Rsvp
   include Mongoid::Document
-  field :name, type: String
-  field :email, type: String
   field :phone, type: String
   field :attending, type: Boolean
-  field :how_many, type: Integer
+  field :name1, type: String
+  field :name2, type: String
+  field :name3, type: String
+  field :name4, type: String
+  field :name5, type: String
 
-  belongs_to :users
+  has_one :user
 end

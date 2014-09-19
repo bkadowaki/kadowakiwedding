@@ -1,6 +1,20 @@
 <h1>Your Profile Page</h1>
 
+<h2>User Credentials</h2>
 <%= @user.name %><br>
 <%= @user.email %><br>
 
-<%= link_to "Log out!", session_path, method: :delete %>
+<% if @user.rsvp_id %>
+<h2>RSVP</h2>
+<%= @user.rsvp.phone %><br>
+<%= @user.rsvp.attending %><br>
+<%= @user.rsvp.name1 %><br>
+<%= @user.rsvp.name2 %><br>
+<%= @user.rsvp.name3 %><br>
+<%= @user.rsvp.name4 %><br>
+<%= @user.rsvp.name5 %><br>
+<% end %>
+
+
+<%= link_to "Log out!", session_path, method: :delete %><br>
+<%= link_to "Home", pages_path %>
