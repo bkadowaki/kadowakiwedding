@@ -52,3 +52,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'debugger', group: [:development, :test]
 
 gem 'mongoid_slug'
+
+
+
+gem 'rails_12factor', group: :production
