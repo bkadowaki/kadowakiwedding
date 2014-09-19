@@ -5,4 +5,6 @@ class Rsvp
   field :phone, type: String
   field :attending, type: Boolean
   field :how_many, type: Integer
+
+  belongs_to :users
 end
