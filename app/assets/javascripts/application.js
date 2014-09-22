@@ -35,7 +35,7 @@ $(document).ready(function(){
 	$('#bat').hover(function(){
 		$('#display_box').toggleClass('bat_display');
 		$(this).fadeIn(function(){
-			$(this).html('batman');
+			$(this).html('batman kadowaki');
 		});
 	});
 });
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	$('#makenzie').hover(function(){
 		$('#display_box').toggleClass('kenz_display');
 		$(this).fadeIn(function(){
-			$(this).html('makenzie');
+			$(this).html('makenzie butt');
 		});
 	});
 });
@@ -53,7 +53,7 @@ $(document).ready(function(){
 	$('#brett').hover(function(){
 		$('#display_box').toggleClass('brett_display');
 		$(this).fadeIn(function(){
-			$(this).html('brett');
+			$(this).html('brett cooper');
 		});
 	});
 });
@@ -62,7 +62,7 @@ $(document).ready(function(){
 	$('#kevin').hover(function(){
 		$('#display_box').toggleClass('kevin_display');
 		$(this).fadeIn(function(){
-			$(this).html('kevin');
+			$(this).html('kevin mccully');
 		});
 	});
 });
@@ -71,7 +71,7 @@ $(document).ready(function(){
 	$('#brandon').hover(function(){
 		$('#display_box').toggleClass('brandon_display');
 		$(this).fadeIn(function(){
-			$(this).html('brandon');
+			$(this).html('brandon tung');
 		});
 	});
 });
@@ -80,7 +80,7 @@ $(document).ready(function(){
 	$('#kristina').hover(function(){
 		$('#display_box').toggleClass('kristina_display');
 		$(this).fadeIn(function(){
-			$(this).html('kristina');
+			$(this).html('kristina lee');
 		});
 	});
 });
@@ -89,7 +89,7 @@ $(document).ready(function(){
 	$('#jodell').hover(function(){
 		$('#display_box').toggleClass('jodell_display');
 		$(this).fadeIn(function(){
-			$(this).html('jodell');
+			$(this).html('jodell kadowaki');
 		});
 	});
 });
@@ -98,7 +98,7 @@ $(document).ready(function(){
 	$('#barry').hover(function(){
 		$('#display_box').toggleClass('barry_display');
 		$(this).fadeIn(function(){
-			$(this).html('barry');
+			$(this).html('barry kadowaki');
 		});
 	});
 });
@@ -107,7 +107,7 @@ $(document).ready(function(){
 	$('#janet').hover(function(){
 		$('#display_box').toggleClass('janet_display');
 		$(this).fadeIn(function(){
-			$(this).html('janet');
+			$(this).html('janet young');
 		});
 	});
 });
@@ -116,7 +116,7 @@ $(document).ready(function(){
 	$('#lisa').hover(function(){
 		$('#display_box').toggleClass('lisa_display');
 		$(this).fadeIn(function(){
-			$(this).html('lisa');
+			$(this).html('lisa mar');
 		});
 	});
 });
@@ -125,7 +125,7 @@ $(document).ready(function(){
 	$('#ian').hover(function(){
 		$('#display_box').toggleClass('ian_display');
 		$(this).fadeIn(function(){
-			$(this).html('ian');
+			$(this).html('ian florentino');
 		});
 	});
 });
@@ -134,7 +134,7 @@ $(document).ready(function(){
 	$('#yuri').hover(function(){
 		$('#display_box').toggleClass('yuri_display');
 		$(this).fadeIn(function(){
-			$(this).html('yuri');
+			$(this).html('yuri ohta');
 		});
 	});
 });
@@ -143,7 +143,7 @@ $(document).ready(function(){
 	$('#kim').hover(function(){
 		$('#display_box').toggleClass('kim_display');
 		$(this).fadeIn(function(){
-			$(this).html('kim');
+			$(this).html('kim ishikawa');
 		});
 	});
 });
@@ -152,7 +152,7 @@ $(document).ready(function(){
 	$('#kathleen').hover(function(){
 		$('#display_box').toggleClass('kathleen_display');
 		$(this).fadeIn(function(){
-			$(this).html('kathleen');
+			$(this).html('kathleen cruz');
 		});
 	});
 });
@@ -161,7 +161,7 @@ $(document).ready(function(){
 	$('#kelly').hover(function(){
 		$('#display_box').toggleClass('kelly_display');
 		$(this).fadeIn(function(){
-			$(this).html('kelly');
+			$(this).html('kelly young');
 		});
 	});
 });
