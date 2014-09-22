@@ -1,5 +1,3 @@
-== README
-
 <h1>My Wedding Site!</h1>
 
 <h2>OVERVIEW:</h2>
