@@ -10,12 +10,6 @@ The site utilizes basic CRUD features by managing and storing our wedding RSVP's
 I added my flavor of front-end features, many leaning on jQuery. 
 <br>
 
-<img src="/Users/Kadowaki/GA/Projects/WeddingPage/kadowakiwedding/app/assets/images/readme/cover.png">
-<img src="/Users/Kadowaki/GA/Projects/WeddingPage/kadowakiwedding/app/assets/images/readme/images/readme/grid.png">
-<img src="/Users/Kadowaki/GA/Projects/WeddingPage/kadowakiwedding/app/assets/images/readme/images/readme/lombardi.png">
-<img src="/Users/Kadowaki/GA/Projects/WeddingPage/kadowakiwedding/app/assets/images/readme/images/readme/rsvp.png">
-
-
 <h2>STOP BY!</h2>
 Users can visit my site by going to https://kadowakiwedding.herokuapp.com/.
 
