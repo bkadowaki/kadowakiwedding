@@ -1,28 +1,33 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1>My Wedding Site!</h1>
 
-Things you may want to cover:
+<h2>OVERVIEW:</h2>
+In 1995 I met my fiance-to-be (Vista Grande Elementary), and after a six-and-a-half year relationship, I finally proposed. 
 
-* Ruby version
+This site is intended to be for both our wedding site, and RSVP database. 
 
-* System dependencies
+The site utilizes basic CRUD features by managing and storing our wedding RSVP's (belongs_to :user) in relation to our registered users (has_many :rsvp). 
 
-* Configuration
+I added my flavor of front-end features, many leaning on jQuery. 
+<br>
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img src="readme/cover.png">
+<img src="readme/grid.png">
+<img src="readme/lombardi.png">
+<img src="readme/rsvp.png">
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<h2>STOP BY!</h2>
+Users can visit my site by going to https://kadowakiwedding.herokuapp.com/.
+
+<h2>DEVELOPER INFO</h2>
+<ul>
+	<li>Layout & Styling: HTML, CSS, Twitter's Bootstrap</li>
+	<li>Interactivity: jQuery</li>
+	<li>Framework: Ruby on Rails</li>
+	<li>Database: MongoDB</li>
+	<li>Hosting: Heroku</li>
+</ul>
+
+Thanks for reading!

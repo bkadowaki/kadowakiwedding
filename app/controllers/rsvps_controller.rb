@@ -30,4 +30,17 @@ class RsvpsController < ApplicationController
 		redirect_to root_path
 	end
 
+	# def update
+ #    @rsvp = Rsvp.find(params[:id])
+ #    if @rsvp.update_attributes(params.require(:rsvp).permit(:phone, :attending, :name1, :name2, :name3, :name4, :name5))
+ #      redirect_to @user
+ #    else
+ #      render 'edit'
+ #    end
+  # end
+
+
+
+	# end
+
 end

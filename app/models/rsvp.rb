@@ -1,7 +1,7 @@
 class Rsvp
   include Mongoid::Document
   field :phone, type: String
-  field :attending, type: Boolean
+  field :attending, type: String
   field :name1, type: String
   field :name2, type: String
   field :name3, type: String

@@ -100,7 +100,15 @@ ul a {
 	display: block;
 	height: 450px;
 	background: white;
+	color: #7C7C85;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+#bride_bio_p {
+	width: 50%;
+	padding-top: 20px;
+}
+
 #fourth_container {
 	background-color: rgb(171,221,198);
 }
@@ -109,6 +117,13 @@ ul a {
 	display: block;
 	height: 450px;
 	background: white;
+	color: #7C7C85;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#groom_bio_p {
+	width: 50%;
+	padding-top: 20px;
 }
 
 // PARTY GRID STYLING
@@ -131,7 +146,7 @@ ul a {
 	text-align: center;
 }
 .brett_grid_box {
-	background: image-url("backgrid_bluepastel.png");
+	background: image-url("boysbggrid.jpg");
 }
 .nicole_grid_box {
 	background: image-url("Flamingo-I-Katherine-Jury1.jpg");	
@@ -291,15 +306,21 @@ ul a {
 	background-repeat: no-repeat;		
 }
 
-// LOGISTICS STYLING
+// DETAILS STYLING
 #sixth_container {
 	background: #FFD9D9;
+	background: rgb(230,230,230);
 }
-#logistics {
+#details {
 	border: 5px solid #DADCDF;
 	display: block;
-	height: 450px;
-	background: white;
+}
+.carousel-caption {
+	font-size: 20px;
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+.carousel-control{
+	opacity: 0;
 }
 
 // REGISTRY STYLING
@@ -320,8 +341,23 @@ ul a {
 #rsvp {
 	border: 5px solid #DADCDF;
 	display: block;
-	height: 450px;
-	background: white;
+	height: 250px;
+	width: 100%;
+	background: image-url("bricks.png");
+}
+#rsvp button {
+	text-align: center;
+	margin-top: 60px;
+	margin-left: 45.5%;
+}
+#rsvpline {
+	margin-left: 6%;
+	padding-top: 15px;
+}
+
+// MUSIC
+#music {
+	background: #DADCDF;
 }
 
 // FOOTER
@@ -330,6 +366,7 @@ ul a {
 	background: #DADCDF;
 	color: #7D7D86;
 	margin-bottom: 0;
+	padding-top: 20px;
 }
 #foot p {
 	margin-bottom: 0;

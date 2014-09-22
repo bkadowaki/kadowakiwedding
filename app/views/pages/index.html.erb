@@ -10,13 +10,13 @@
 <!-- SECOND CONTAINER -->
 	<div id="second_container">
 <!-- CAROUSEL HTML -->
-		<div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
+		<div id="carousel1" class="carousel slide container" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel1" data-slide-to="1"></li>
+		    <li data-target="#carousel1" data-slide-to="2"></li>
+		    <li data-target="#carousel1" data-slide-to="3"></li>
 		  </ol>
 
 		  <!-- Wrapper for slides -->
@@ -48,10 +48,10 @@
 		  </div>
 
 		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		  <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
 		    <span class="glyphicon glyphicon-chevron-left"></span>
 		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		  <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
 		    <span class="glyphicon glyphicon-chevron-right"></span>
 		  </a>
 		</div>
@@ -64,9 +64,14 @@
 		<div id="third_container">
 <!-- ABOUT THE BRIDE -->
 			<div id="bride_bio" class="container">
+				<h3>About the Bride</h3>
+					<div class="container" id="bride_bio_p">
+						<p>The bride made me change the interface of this site a bajallion times. Lorem ipsum? Lorin ipsum? Lorin is sum? Lorin is fun? Lorin is fun. Words words words. word. Tryign to fill up space. More space. Even more. Palabras. Text text text, more words, words and words.</p>
+						<p>Second paragraph is better than the first paragraph. It will be more succinct, but more profound. So profound.</p>
+					</div>
 			</div>
 		</div>
-		
+
 
 <!-- BACKGROUND BREAK -->
 	<div id="break2"></div>
@@ -74,6 +79,11 @@
 		<div id="fourth_container">
 <!-- ABOUT THE GROOM -->
 			<div id="groom_bio" class="container">
+				<h3>About the Groom</h3>
+					<div class="container" id="groom_bio_p">
+						<p>The bride made me change the interface of this site a bajallion times. Lorem ipsum? Lorin ipsum? Lorin is sum? Lorin is fun? Lorin is fun. Words words words. word. Tryign to fill up space. More space. Even more. Palabras. Text text text, more words, words and words.</p>
+						<p>Second paragraph is better than the first paragraph. It will be more succinct, but more profound. So profound.</p>
+					</div>
 			</div>
 		</div>
 
@@ -120,8 +130,45 @@
 	<div id="break4"></div>
 <!-- SIXTH CONTAINER -->
 		<div id="sixth_container">
-<!-- LOGISTICS -->
-			<div id="logistics" class="container">
+<!-- DETAILS -->
+			<div id="details" class="container">
+<!-- DETAILS CAROUSEL -->
+				<div id="carousel2" class="carousel slide" data-ride="carousel">
+  				<!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel2" data-slide-to="1"></li>
+				    <li data-target="#carousel2" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13214.895422430469!2d-118.318309!3d34.102214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x268c24c63191d3fe!2sThe+Lombardi+House!5e0!3m2!1sen!2sus!4v1411259749940" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				     	<%= image_tag "lomb1.jpg"%>
+				      <div class="carousel-caption">
+				      </div>
+				    </div>				    
+				    <div class="item">
+				     	<%= image_tag "lomb2.jpg"%>
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel2" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				  </a>
+				</div>
+
 			</div>
 		
 		</div>
@@ -147,6 +194,9 @@
 					<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#rsvp_modal">
 					  RSVP
 					</button>
+				<div id="rsvpline">
+					<%= image_tag "rsvpline.png" %>
+				</div>
 
 					<div class="modal fade" id="rsvp_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			  		<div class="modal-dialog">
@@ -191,10 +241,11 @@
 					</div>
 				</div>
 		</div>
-
 <footer>
 	<div id="foot">
 		<%= image_tag "batfacetiny.png"%>
 		<p>site built by groom</p>
+<!-- BACKGROUND MUSIC -->
+<!-- 		<iframe width="0" height="0" src="https://www.youtube.com/embed/0sgenkjmXZ4?autoplay=1" frameborder="0" allowfullscreen id="music"></iframe> -->
 	</div>
 </footer>	

@@ -1,20 +1,51 @@
-<h1>Your Profile Page</h1>
+<div class="container">
+	<h1>Welcome <%= @user.name%>!</h1>
+		<div id="profile_credentials">
+			<h3>User Credentials</h3>
+				<ul>
+						<%= form_for @user do |f| %>
+						<li><%= f.label :name %>
+						<%= @user.name %><br>
+						<li><%= f.label :email %>
+						<%= @user.email %><br>
+					<% end %>
+				</ul>
+		</div>
 
-<h2>User Credentials</h2>
-<%= @user.name %><br>
-<%= @user.email %><br>
+		<div id="profile_rsvp">
+			<% if @user.rsvp_id %>
+				<h3>RSVP</h3>
+					<ul>
+						
+							<%= form_for @user.rsvp do |f| %>
+								<li><%= f.label :phone %>
+								<%= @user.rsvp.phone %><br>
+								<li><%= f.label :attending %>
+								<%= @user.rsvp.attending %><br>
+								<li><%= f.label :guest_1 %>
+								<%= @user.rsvp.name1 %><br>
+								<li><%= f.label :guest_2 %>
+								<%= @user.rsvp.name2 %><br>
+								<li><%= f.label :guest_3 %>
+								<%= @user.rsvp.name3 %><br>
+								<li><%= f.label :guest_4 %>
+								<%= @user.rsvp.name4 %><br>
+								<li><%= f.label :guest_5 %>
+								<%= @user.rsvp.name5 %><br>
+							<% end %>
+					</ul>
+			<% end %>
+		</div>
 
-<% if @user.rsvp_id %>
-<h2>RSVP</h2>
-<%= @user.rsvp.phone %><br>
-<%= @user.rsvp.attending %><br>
-<%= @user.rsvp.name1 %><br>
-<%= @user.rsvp.name2 %><br>
-<%= @user.rsvp.name3 %><br>
-<%= @user.rsvp.name4 %><br>
-<%= @user.rsvp.name5 %><br>
-<% end %>
+		<div id="btn_section">
+			<button class="btn btn-primary">
+				<%= link_to "Log out!", session_path, method: :delete %>
+			</button>
 
+			<button class="btn btn-primary">
+			<%= link_to "Home", pages_path %><br>
+			</button>
 
-<%= link_to "Log out!", session_path, method: :delete %><br>
-<%= link_to "Home", pages_path %>
+			<%#= link_to 'Edit RSVP', user_path(@rsvp), class: "button" %>
+		</div>
+</div>

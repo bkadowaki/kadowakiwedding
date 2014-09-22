@@ -168,32 +168,30 @@ $(document).ready(function(){
 // SMOOTH SCROLLING
 $(document).ready(function() {
   $('#bios_link').click(function(){
-      $('html, body').animate({
-      	scrollTop: $("#bride_bio").offset().top
+    $('html, body').animate({
+    	scrollTop: $("#bride_bio").offset().top
       }, 2000);
    });
   $('#weddingp_link').click(function(){
-      $('html, body').animate({
-      	scrollTop: $("#party_grid").offset().top
+    $('html, body').animate({
+    	scrollTop: $("#party_grid").offset().top
       }, 2000);
    });
-      $('#logistics_link').click(function(){
-      $('html, body').animate({
-          scrollTop: $("#logistics").offset().top
+  $('#details_link').click(function(){
+    $('html, body').animate({
+      scrollTop: $("#details").offset().top
       }, 2000);
    });      
-      $('#registry_link').click(function(){
-      $('html, body').animate({
-          scrollTop: $("#registry").offset().top
+  $('#registry_link').click(function(){
+    $('html, body').animate({
+      scrollTop: $("#registry").offset().top
       }, 2000);
    });      
-      $('#rsvp_link').click(function(){
-      $('html, body').animate({
-          scrollTop: $("#rsvp").offset().top
+  $('#rsvp_link').click(function(){
+    $('html, body').animate({
+      scrollTop: $("#rsvp").offset().top
       }, 2000);
    });
 });
-
-
 
 
