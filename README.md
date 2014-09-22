@@ -10,10 +10,10 @@ The site utilizes basic CRUD features by managing and storing our wedding RSVP's
 I added my flavor of front-end features, many leaning on jQuery. 
 <br>
 
-<img src="readme/cover.png">
-<img src="readme/grid.png">
-<img src="readme/lombardi.png">
-<img src="readme/rsvp.png">
+<img src="images/readme/cover.png">
+<img src="images/readme/grid.png">
+<img src="images/readme/lombardi.png">
+<img src="images/readme/rsvp.png">
 
 
 <h2>STOP BY!</h2>
