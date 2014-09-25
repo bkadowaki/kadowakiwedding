@@ -31,138 +31,124 @@ $(document).scroll(function(){
 //    });
 // });
 // CHANGE CONTENT OF BAT BOX ON HOVER
+// $(document).ready(function(){
+// 	$('#bat').hover(function(){
+// 		$('#display_box').toggleClass('bat_display');
+// 		$(this).fadeIn(function(){
+// 			$(this).html('batman kadowaki');
+// 		});
+// 	});
+// });
+// TOGGLE BAT_STYLE AND BAT_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#bat').hover(function(){
+		$(this).toggleClass('bat_style2');
 		$('#display_box').toggleClass('bat_display');
-		$(this).fadeIn(function(){
-			$(this).html('batman kadowaki');
-		});
 	});
 });
-// CHANGE CONTENT OF MAKENZIE BOX ON HOVER
+// TOGGLE KENZ_STYLE AND KENZ_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#makenzie').hover(function(){
+		$(this).toggleClass('kenz_style2');
 		$('#display_box').toggleClass('kenz_display');
-		$(this).fadeIn(function(){
-			$(this).html('makenzie butt');
-		});
 	});
 });
-// CHANGE CONTENT OF BRETT BOX ON HOVER
+// TOGGLE BRETT_STYLE AND KENZ_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#brett').hover(function(){
+		$(this).toggleClass('brett_style2');
 		$('#display_box').toggleClass('brett_display');
-		$(this).fadeIn(function(){
-			$(this).html('brett cooper');
-		});
 	});
 });
-// CHANGE CONTENT OF KEVIN BOX ON HOVER
+// TOGGLE GROOMSMAN_STYLE AND KEVIN_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#kevin').hover(function(){
+		$(this).toggleClass('kevin_style2');
 		$('#display_box').toggleClass('kevin_display');
-		$(this).fadeIn(function(){
-			$(this).html('kevin mccully');
-		});
 	});
 });
-// CHANGE CONTENT OF BRANDON BOX ON HOVER
+// TOGGLE GROOMSMAN_STYLE AND BRANDON_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#brandon').hover(function(){
+		$(this).toggleClass('brandon_style2');
 		$('#display_box').toggleClass('brandon_display');
-		$(this).fadeIn(function(){
-			$(this).html('brandon tung');
-		});
 	});
 });
-// CHANGE CONTENT OF KRISTINA BOX ON HOVER
+// TOGGLE BRIDESMAID_STYLE AND KRISTINA_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#kristina').hover(function(){
+		$(this).toggleClass('kristina_style2');
 		$('#display_box').toggleClass('kristina_display');
-		$(this).fadeIn(function(){
-			$(this).html('kristina lee');
-		});
 	});
 });
-// CHANGE CONTENT OF JODELL BOX ON HOVER
+// TOGGLE JODELL_STYLE AND JODELL_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#jodell').hover(function(){
+		$(this).toggleClass('jodell_style2');
 		$('#display_box').toggleClass('jodell_display');
-		$(this).fadeIn(function(){
-			$(this).html('jodell kadowaki');
-		});
 	});
 });
-// CHANGE CONTENT OF BARRY BOX ON HOVER
+// TOGGLE BARRY_STYLE AND BARRY_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#barry').hover(function(){
+		$(this).toggleClass('barry_style2');
 		$('#display_box').toggleClass('barry_display');
-		$(this).fadeIn(function(){
-			$(this).html('barry kadowaki');
-		});
 	});
 });
-// CHANGE CONTENT OF JANET BOX ON HOVER
+// TOGGLE JANET_STYLE AND JANET_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#janet').hover(function(){
+		$(this).toggleClass('janet_style2');
 		$('#display_box').toggleClass('janet_display');
-		$(this).fadeIn(function(){
-			$(this).html('janet young');
-		});
 	});
 });
-// CHANGE CONTENT OF LISA BOX ON HOVER
+// TOGGLE MARK_STYLE AND MARK_STYLE2 CLASSES
+$(document).ready(function(){
+	$('#mark').hover(function(){
+		$(this).toggleClass('mark_style2');
+		$('#display_box').toggleClass('mark_display');
+	});
+});
+// TOGGLE BRIDESMAID_STYLE AND LISA_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#lisa').hover(function(){
+		$(this).toggleClass('lisa_style2');
 		$('#display_box').toggleClass('lisa_display');
-		$(this).fadeIn(function(){
-			$(this).html('lisa mar');
-		});
 	});
 });
-// CHANGE CONTENT OF IAN BOX ON HOVER
+// TOGGLE GROOMSMAN_STYLE AND IAN_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#ian').hover(function(){
+		$(this).toggleClass('ian_style2');
 		$('#display_box').toggleClass('ian_display');
-		$(this).fadeIn(function(){
-			$(this).html('ian florentino');
-		});
 	});
 });
-// CHANGE CONTENT OF YURI BOX ON HOVER
+// TOGGLE BRIDESMAID_STYLE AND YURI_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#yuri').hover(function(){
+		$(this).toggleClass('yuri_style2');
 		$('#display_box').toggleClass('yuri_display');
-		$(this).fadeIn(function(){
-			$(this).html('yuri ohta');
-		});
 	});
 });
-// CHANGE CONTENT OF KIM BOX ON HOVER
+// TOGGLE BRIDESMAID_STYLE AND KIM_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#kim').hover(function(){
+		$(this).toggleClass('kim_style2');
 		$('#display_box').toggleClass('kim_display');
-		$(this).fadeIn(function(){
-			$(this).html('kim ishikawa');
-		});
 	});
 });
-// CHANGE CONTENT OF KATHLEEN BOX ON HOVER
+// TOGGLE BRIDESMAID_STYLE AND KATHLEEN_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#kathleen').hover(function(){
+		$(this).toggleClass('kathleen_style2');
 		$('#display_box').toggleClass('kathleen_display');
-		$(this).fadeIn(function(){
-			$(this).html('kathleen cruz');
-		});
 	});
 });
-// CHANGE CONTENT OF KELLY BOX ON HOVER
+// TOGGLE KELLY_STYLE AND KELLY_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#kelly').hover(function(){
+		$(this).toggleClass('kelly_style2');
 		$('#display_box').toggleClass('kelly_display');
-		$(this).fadeIn(function(){
-			$(this).html('kelly young');
-		});
 	});
 });
 // SMOOTH SCROLLING

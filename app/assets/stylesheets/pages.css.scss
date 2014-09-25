@@ -144,19 +144,13 @@ ul a {
 	height: 153px;
 	width: 156px;
 	display: inline-block;
-	margin-top: 4px;
+	margin-top: 0px;
 	text-align: center;
-}
-.brett_grid_box {
-	background: image-url("boysbggrid.jpg");
 }
 .nicole_grid_box {
 	background: image-url("Flamingo-I-Katherine-Jury1.jpg");	
 }
-// HIGHLIGHT HOVERING GRIDS
-// .hover {
-// 	background-color: yellow;
-// }
+
 // ALL BRETT'S SIDE ROLES
 #bretts_side {
 	position: absolute;
@@ -238,16 +232,90 @@ ul a {
 	position: absolute;
 	bottom: 0;
 	margin-left: 322px;
-	margin-bottom: 3px;
+	margin-bottom: -5px;
 	text-align: center;
-	padding-top: 68px;
 }
-#bat {
-	padding-top: 62px;
+
+// ALTERNATIVE CLASSES FOR .HOVER/.TOGGLE
+.bat_style {
+	background: image-url("bat_style1.jpg");
 }
-#makenzie {
-	padding-top: 62px;
+.bat_style2 {
+	background: image-url("bat_style2.jpg");
 }
+.kenz_style {
+	background: image-url("kenz_style1.jpg");
+}
+.kenz_style2 {
+	background: image-url("kenz_style3.jpg");
+}
+.brett_grid_box {
+	background: image-url("groomsman_style1.jpg");
+}
+.kevin_style2 {
+	background: image-url("kevin_style2.jpg");
+}
+.ian_style2 {
+	background: image-url("ian_style3.jpg");	
+}
+.brandon_style2 {
+	background: image-url("brandon_style2.jpg");
+}
+.brett_style {
+	background: image-url("bestman_style1.jpg");
+}
+.brett_style2 {
+	background: image-url("brett_style2.jpg");	
+}
+.jodell_style {
+	background: image-url("jodell_style1.jpg");	
+}
+.jodell_style2 {
+	background: image-url("jodell_style2.jpg");	
+}
+.barry_style {
+	background: image-url("barry_style1.jpg");	
+}
+.barry_style2 {
+	background: image-url("barry_style2.jpg");	
+}
+.janet_style {
+	background: image-url("janet_style1.jpg");
+}
+.janet_style2 {
+	background: image-url("janet_style2.jpg");
+}
+.mark_style {
+	background: image-url("mark_style1.jpg");	
+}
+.mark_style2 {
+	background: image-url("mark_style2.jpg");	
+}
+.kelly_style {
+	background: image-url("kelly_style1.jpg");	
+}
+.kelly_style2 {
+	background: image-url("kelly_style2.jpg");	
+}
+.nicole_grid_box {
+	background: image-url("bridesmaid_style1.jpg");
+}
+.lisa_style2 {
+	background: image-url("lisa_style2.jpg");
+}
+.kathleen_style2 {
+	background: image-url("kathleen_style2.jpg");	
+}
+.kristina_style2 {
+	background: image-url("kristina_style2.jpg");	
+}
+.yuri_style2 {
+	background: image-url("yuri_style2.jpg");	
+}
+.kim_style2 {
+	background: image-url("kim_style2.jpg");		
+}
+
 // ALL DISPLAY BOX CONDITIONAL CLASSES
 .bat_display {
 	background: image-url("c6y5h.gif");
@@ -287,6 +355,10 @@ ul a {
 }	
 .janet_display {
 	background: image-url("c6lhn.gif");
+	background-repeat: no-repeat;	
+}
+.mark_display {
+	background: image-url("cfuxz.gif");
 	background-repeat: no-repeat;	
 }
 .lisa_display {
