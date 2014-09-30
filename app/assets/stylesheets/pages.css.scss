@@ -45,6 +45,10 @@ header {
 ul a {
 	cursor: pointer;
 }
+// LINK HOVER IN NAV
+.shadow_hoverli {
+	background: white;
+}
 
 // SECOND CONTAINER STYLING
 #second_container {
@@ -110,7 +114,7 @@ ul a {
 }
 
 #fourth_container {
-	background-color: rgb(171,221,198);
+	background-color: #EDFCFF;
 }
 #groom_bio {
 	border: 5px solid #DADCDF;
@@ -128,13 +132,13 @@ ul a {
 
 // PARTY GRID STYLING
 #fifth_container {
-	background: #EFF3FF;
+	background-color: white;
 }
 #party_grid {
 	position: relative;
 	height: 641px;
 	width: 970px;
-	border: 5px solid #DADCDF;
+	border: 5px solid white;
 	// margin-top: 80px;
 	padding: 0;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -267,6 +271,12 @@ ul a {
 .brett_style2 {
 	background: image-url("brett_style2.jpg");	
 }
+.matt_style2 {
+	background: image-url("matt_style2.jpg");	
+}
+.travis_style2 {
+	background: image-url("trav_style2.jpg");	
+}
 .jodell_style {
 	background: image-url("jodell_style1.jpg");	
 }
@@ -333,6 +343,14 @@ ul a {
 	background: image-url("c6lxc.gif");
 	background-repeat: no-repeat;	
 }
+.matt_display {
+	background: image-url("mattdisp.jpg");
+	background-repeat: no-repeat;	
+}
+.travis_display {
+	background: image-url("clg34.gif");
+	background-repeat: no-repeat;	
+}
 .brandon_display {
 	background: image-url("c6ni9.gif");
 	background-repeat: no-repeat;	
@@ -384,11 +402,10 @@ ul a {
 
 // DETAILS STYLING
 #sixth_container {
-	background: #FFD9D9;
-	background: rgb(230,230,230);
+	background: #F7D6C7;
 }
 #details {
-	border: 5px solid #DADCDF;
+	border: 5px solid white;
 	display: block;
 }
 .carousel-caption {
@@ -401,7 +418,7 @@ ul a {
 
 // REGISTRY STYLING
 #seventh_container {
-	background: #FFFFE0;
+	background: #EDFCFF;
 }
 #registry {
 	border: 5px solid #DADCDF;
@@ -412,23 +429,17 @@ ul a {
 
 // RSVP STYLING
 #eighth_container {
-	background: #E0FFFF;
+	background: white;
 }
 #rsvp {
 	border: 5px solid #DADCDF;
-	display: block;
 	height: 250px;
-	width: 100%;
-	background: image-url("bricks.png");
+	background: white;
 }
 #rsvp button {
 	text-align: center;
 	margin-top: 60px;
 	margin-left: 45.5%;
-}
-#rsvpline {
-	margin-left: 6%;
-	padding-top: 15px;
 }
 
 // MUSIC
@@ -439,7 +450,7 @@ ul a {
 // FOOTER
 #foot {
 	text-align: center;
-	background: #DADCDF;
+	background: #e6e6e6;
 	color: #7D7D86;
 	margin-bottom: 0;
 	padding-top: 20px;

@@ -16,6 +16,13 @@
 //= require turbolinks
 //= require_tree .
 
+// NAV HOVER
+$(document).ready(function(){
+	$('.nav_links').hover(function(){
+		$(this).toggleClass('shadow_hoverli');
+	});
+});
+
 // FADE OUT HEADER TEXT ON SCROLL
 $(document).scroll(function(){
 	$('#header_text').fadeOut('slow');
@@ -121,6 +128,20 @@ $(document).ready(function(){
 	$('#ian').hover(function(){
 		$(this).toggleClass('ian_style2');
 		$('#display_box').toggleClass('ian_display');
+	});
+});
+// TOGGLE GROOMSMAN_STYLE AND MATT_STYLE2 CLASSES
+$(document).ready(function(){
+	$('#matt').hover(function(){
+		$(this).toggleClass('matt_style2');
+		$('#display_box').toggleClass('matt_display');
+	});
+});
+// TOGGLE GROOMSMAN_STYLE AND TRAV_STYLE2 CLASSES
+$(document).ready(function(){
+	$('#travis').hover(function(){
+		$(this).toggleClass('travis_style2');
+		$('#display_box').toggleClass('travis_display');
 	});
 });
 // TOGGLE BRIDESMAID_STYLE AND YURI_STYLE2 CLASSES
