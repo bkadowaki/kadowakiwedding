@@ -107,10 +107,14 @@ ul a {
 	color: #7C7C85;
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	max-width: 100%;
 }
 #bride_bio_p {
-	width: 50%;
-	padding-top: 20px;
+	width: 100%;
+	padding-top: 10px;
+}
+#bride_bio_p p {
+	width: 100%;
 }
 
 #fourth_container {
@@ -126,8 +130,8 @@ ul a {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 #groom_bio_p {
-	width: 50%;
-	padding-top: 20px;
+	width: 100%;
+	padding-top: 10px;
 }
 
 // PARTY GRID STYLING
