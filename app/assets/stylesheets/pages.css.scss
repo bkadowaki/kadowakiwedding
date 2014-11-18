@@ -5,7 +5,7 @@
 
 // ALL HEADER STYLING
 header {
-	background: image-url("cover1.jpg");
+	background: image-url("cover.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	height: 550px;
@@ -50,10 +50,20 @@ ul a {
 	background: white;
 }
 
+// ALL CONTAINERS
+.conts {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 // SECOND CONTAINER STYLING
 #second_container {
 	background: rgb(230,230,230);
 	position: relative;
+	height: auto;
+}
+#carousel1 {
+	width: 80%;
 }
 
 // BACKGROUND BREAK STYLING
@@ -72,11 +82,11 @@ ul a {
 #break3 {
 	height: 600px;
 	width: 100%;
-	background: image-url("break32.jpg");
+	background: image-url("break3.jpg");
 	background-attachment: fixed;
 }
 #break4 {
-	height: 600px;
+	height: 430px;
 	width: 100%;
 	background: image-url("break5.jpg");
 	background-attachment: fixed;
@@ -102,7 +112,7 @@ ul a {
 #bride_bio {
 	border: 5px solid #DADCDF;
 	display: block;
-	height: 450px;
+	height: auto;
 	background: white;
 	color: #7C7C85;
 	text-align: center;
@@ -124,7 +134,7 @@ ul a {
 #groom_bio {
 	border: 5px solid #DADCDF;
 	display: block;
-	height: 450px;
+	height: auto;
 	background: white;
 	color: #7C7C85;
 	text-align: center;
@@ -410,9 +420,14 @@ ul a {
 #sixth_container {
 	background: #F7D6C7;
 }
+iframe {
+	margin-bottom: -5px;
+}
 #details {
 	border: 5px solid white;
 	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .carousel-caption {
 	font-size: 20px;
