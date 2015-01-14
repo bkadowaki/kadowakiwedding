@@ -466,6 +466,9 @@ iframe {
 	margin-top: 60px;
 	margin-left: 45.5%;
 }
+.rsvp-btn:hover {
+	text-decoration: none;
+}
 
 // MUSIC
 #music {
@@ -475,10 +478,12 @@ iframe {
 // FOOTER
 #foot {
 	text-align: center;
-	background: #e6e6e6;
-	color: #7D7D86;
-	margin-bottom: 0;
+	// background: #e6e6e6;
+	background-color: white;
+	// color: #7D7D86;
+	// margin-bottom: 20px;
 	padding-top: 20px;
+	height: 100px;
 }
 #foot p {
 	margin-bottom: 0;

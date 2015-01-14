@@ -185,58 +185,14 @@
 
 
 <!-- BACKGROUND BREAK -->
-	<div id="break6"></div>
+	<!-- <div id="break6"></div> -->
 <!-- EIGHTH CONTAINER -->
-		<div id="eighth_container" class="conts">
+		<!-- <div id="eighth_container" class="conts"> -->
 <!-- RSVP -->
-				<div id="rsvp" class="container">
-						<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#rsvp_modal">
-						  RSVP
-						</button>
-
-					<div class="modal fade" id="rsvp_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			  		<div class="modal-dialog">
-			    		<div class="modal-content">
-			      		<div class="modal-header">
-					        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-					        <h4 class="modal-title" id="myModalLabel">RSVP</h4>
-			      		</div>
-			      <div class="modal-body">
-							<%= form_for @rsvp, url: {controller: 'rsvps', action: 'create'}, method: 'post', class: 'form-horizontal' do |f| %>
-
-								<%= f.label :phone %>
-								<%= f.text_field :phone, class: 'form-control' %>
-								
-								<%= f.label :attending %>
-								<%= f.text_field :attending, class: 'form-control' %>								
-
-								<%= f.label :name1 %>
-								<%= f.text_field :name1, class: 'form-control' %>
-
-								<%= f.label :name2 %>
-								<%= f.text_field :name2, class: 'form-control' %>
-
-								<%= f.label :name3 %>
-								<%= f.text_field :name3, class: 'form-control' %>							
-
-								<%= f.label :name4 %>
-								<%= f.text_field :name4, class: 'form-control' %>								
-
-								<%= f.label :name5 %>
-								<%= f.text_field :name5, class: 'form-control' %>
-
-							  <%= f.submit "Submit" %>
-							<% end %>
-			      </div>
-						<div class="modal-footer">
-								  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								</div>
-			    		</div>
-			  		</div>
-
-					</div>
+<!-- 				<div id="rsvp" class="container">
+					<button class="btn btn-info btn-lg"><a href="https://docs.google.com/forms/d/1VVBEmZG7PgtxswefLk_oGg0QuQhA-LtAhkJxZC0J4Hs/viewform?usp=send_form" class="rsvp-btn">Submit</a></button>
 				</div>
-		</div>
+		</div> -->
 <footer>
 	<div id="foot">
 		<%= image_tag "batfacetiny.png"%>
