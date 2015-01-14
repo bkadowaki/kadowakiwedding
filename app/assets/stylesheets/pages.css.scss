@@ -45,6 +45,31 @@ header {
 ul a {
 	cursor: pointer;
 }
+.nav_links {
+	margin-bottom: -1px;
+  -webkit-transition: background-color 0.8s ease-out;
+  -moz-transition: background-color 0.8s ease-out;
+  -o-transition: background-color 0.8s ease-out;
+  transition: background-color 0.8s ease-out;
+}
+.nav_links a { 
+  -webkit-transition: color 0.8s ease-out;
+  -moz-transition: color 0.8s ease-out;
+  -o-transition: color 0.8s ease-out;
+  transition: color 0.8s ease-out;	  
+  -webkit-transition: letter-spacing 0.8s ease-out;
+  -moz-transition: letter-spacing 0.8s ease-out;
+  -o-transition: letter-spacing 0.8s ease-out;
+  transition: letter-spacing 0.8s ease-out;	
+}
+.nav_links:hover {
+	background-color: #B2B2B2;
+}
+.nav_links a:hover {
+	color: white !important; 
+	letter-spacing: 1px;
+}
+
 // LINK HOVER IN NAV
 .shadow_hoverli {
 	background: white;

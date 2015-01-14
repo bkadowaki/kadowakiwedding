@@ -16,11 +16,11 @@
 //= require_tree .
 
 // NAV HOVER
-$(document).ready(function(){
-	$('.nav_links').hover(function(){
-		$(this).toggleClass('shadow_hoverli');
-	});
-});
+// $(document).ready(function(){
+// 	$('.nav_links').hover(function(){
+// 		$(this).toggleClass('shadow_hoverli');
+// 	});
+// });
 
 // FADE OUT HEADER TEXT ON SCROLL
 $(document).scroll(function(){
