@@ -27,6 +27,11 @@ header {
 		width: 524px;
 	}
 }
+h3 {
+	font-family: 'Euphoria Script', cursive;
+	font-size: 40px;
+	margin-bottom: -32px;
+}
 #header_text {
 	position: relative;	
 	z-index: 10;
@@ -38,6 +43,9 @@ header {
 }
 
 // NAVBAR STYLING
+.navbar-fixed-top {
+	border-width: 0 !important;
+}
 .navbar {
 	width: 100%;
 	margin: 0px;
@@ -86,6 +94,7 @@ ul a {
 	background: rgb(230,230,230);
 	position: relative;
 	height: auto;
+	background-image: image-url("grain.png");
 }
 #carousel1 {
 	width: 80%;
@@ -137,6 +146,7 @@ ul a {
 // BRIDE GROOM BIOS
 #third_container {
 	background-color: #F7D6C7;
+	background-image: image-url("grain.png");
 }
 #bride_bio {
 	border: 5px solid #DADCDF;
@@ -148,6 +158,12 @@ ul a {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	max-width: 100%;
 	font-size: 1em;
+	padding-bottom: 20px;
+	font-size: 1.12em;
+}
+#bride-hr {
+	border-color: #F7D6C7;
+	width: 22%;
 }
 #bride_bio_p {
 	width: 100%;
@@ -159,6 +175,7 @@ ul a {
 
 #fourth_container {
 	background-color: #EDFCFF;
+	background-image: image-url("grain.png");
 }
 #groom_bio {
 	border: 5px solid #DADCDF;
@@ -169,6 +186,12 @@ ul a {
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	max-width: 100%;
+	padding-bottom: 20px;
+	font-size: 1.12em;
+}
+#groom-hr {
+	border-color: #D5E3E6;
+	width: 22%;
 }
 #groom_bio_p {
 	width: 100%;
@@ -178,6 +201,7 @@ ul a {
 // PARTY GRID STYLING
 #fifth_container {
 	background-color: white;
+	background-image: image-url("grain.png");
 }
 #party_grid {
 	position: relative;
@@ -445,14 +469,25 @@ ul a {
 	background-repeat: no-repeat;		
 }
 
-// DETAILS STYLING
+// LOCATION STYLING
 #sixth_container {
 	background: #F7D6C7;
+	background-image: image-url("grain.png");
+	padding-top: 1px;
+}
+#location-header {
+	text-align: center;
+	// color: #7C7C85;
+	color: white;
+}
+#location-hr {
+	width: 10%;
+	border-color: #CBCBCE;
 }
 iframe {
 	margin-bottom: -5px;
 }
-#details {
+#location {
 	border: 5px solid white;
 	display: block;
 	padding-left: 0px;
@@ -477,22 +512,51 @@ iframe {
 	background: white;
 }
 
-// RSVP STYLING
+// DETAILS STYLING
 #eighth_container {
 	background: white;
+	background-image: image-url("grain.png");
+	padding-bottom: 20px;
 }
-#rsvp {
+#details {
 	border: 5px solid #DADCDF;
-	height: 250px;
+	height: auto;
 	background: white;
-}
-#rsvp button {
 	text-align: center;
-	margin-top: 60px;
-	margin-left: 45.5%;
+	color: #7C7C85;
+	padding-bottom: 20px;
+	padding-left: 8%;
+	padding-right: 10%;
 }
-.rsvp-btn:hover {
-	text-decoration: none;
+#details-hr {
+	width: 10%;
+	border-color: #A2A2A5;
+}
+.details-container {
+	height: auto;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	max-width: 100%;
+	font-size: 1em;
+}
+.details-p {
+	padding-top: 10px;
+}
+.title {
+	font-family: 'Euphoria Script', cursive;
+	font-size: 33px;
+	-webkit-transition: color 0.8s ease-out;
+  -moz-transition: color 0.8s ease-out;
+  -o-transition: color 0.8s ease-out;
+  transition: color 0.8s ease-out;	
+}
+.title:hover {
+	color: #F7D6C7;
+	cursor: pointer;
+}
+.description {
+	font-size: 1.4em;
+	padding-top: 12px;
+	// padding-right: 60px;
 }
 
 // MUSIC

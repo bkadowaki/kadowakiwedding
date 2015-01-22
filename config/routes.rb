@@ -10,6 +10,8 @@ resources :users, :rsvps, :pages, :sessions
 
 root :to => 'pages#index'
 
+get '/kadowakiwedding' => 'instagram#show', as: :kadowakiwedding
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

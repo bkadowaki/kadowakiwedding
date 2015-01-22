@@ -183,9 +183,9 @@ $(document).ready(function() {
     	scrollTop: $("#party_grid").offset().top
       }, 2000);
    });
-  $('#details_link').click(function(){
+  $('#location_link').click(function(){
     $('html, body').animate({
-      scrollTop: $("#details").offset().top
+      scrollTop: $("#location").offset().top
       }, 2000);
    });      
   $('#registry_link').click(function(){
@@ -193,9 +193,9 @@ $(document).ready(function() {
       scrollTop: $("#registry").offset().top
       }, 2000);
    });      
-  $('#rsvp_link').click(function(){
+  $('#details_link').click(function(){
     $('html, body').animate({
-      scrollTop: $("#rsvp").offset().top
+      scrollTop: $("#details").offset().top
       }, 2000);
    });
 });
