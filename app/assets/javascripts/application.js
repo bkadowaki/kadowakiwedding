@@ -130,12 +130,12 @@ $(document).ready(function(){
 	});
 });
 // TOGGLE GROOMSMAN_STYLE AND MATT_STYLE2 CLASSES
-$(document).ready(function(){
-	$('#matt').hover(function(){
-		$(this).toggleClass('matt_style2');
-		$('#display_box').toggleClass('matt_display');
-	});
-});
+// $(document).ready(function(){
+// 	$('#matt').hover(function(){
+// 		$(this).toggleClass('matt_style2');
+// 		$('#display_box').toggleClass('matt_display');
+// 	});
+// });
 // TOGGLE GROOMSMAN_STYLE AND TRAV_STYLE2 CLASSES
 $(document).ready(function(){
 	$('#travis').hover(function(){
